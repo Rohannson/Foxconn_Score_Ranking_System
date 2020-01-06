@@ -20,6 +20,7 @@ import { JiuzhangquanzhankeAppRoutingModule } from "./app-routing.module";
 import { JiuzhangquanzhankeHomeModule } from "./home/home.module";
 import { JiuzhangquanzhankeAccountModule } from "./account/account.module";
 import { JiuzhangquanzhankeEntityModule } from "./entities/entity.module";
+
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
   JhiMainComponent,
@@ -41,6 +42,7 @@ import { RankingComponent } from "./ranking/ranking.component";
     JiuzhangquanzhankeAccountModule,
     JiuzhangquanzhankeEntityModule,
     HttpClientModule
+    // RankingModule
     // jhipster-needle-angular-add-module JHipster will add new module here
   ],
   declarations: [
