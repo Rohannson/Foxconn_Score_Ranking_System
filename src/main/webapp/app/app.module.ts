@@ -30,6 +30,7 @@ import {
   ErrorComponent
 } from "./layouts";
 import { RankingComponent } from "./ranking/ranking.component";
+import { UploadComponent } from "./upload/upload.component";
 
 @NgModule({
   imports: [
@@ -51,7 +52,8 @@ import { RankingComponent } from "./ranking/ranking.component";
     ErrorComponent,
     PageRibbonComponent,
     FooterComponent,
-    RankingComponent
+    RankingComponent,
+    UploadComponent
   ],
   providers: [
     {

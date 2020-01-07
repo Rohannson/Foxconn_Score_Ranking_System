@@ -3,8 +3,9 @@ import { RouterModule } from "@angular/router";
 import { errorRoute, navbarRoute } from "./layouts";
 import { rankingRoute } from "app/ranking/ranking.route";
 import { DEBUG_INFO_ENABLED } from "app/app.constants";
+import { uploadRoute } from "app/upload/upload.route";
 
-const LAYOUT_ROUTES = [navbarRoute, ...errorRoute, rankingRoute];
+const LAYOUT_ROUTES = [navbarRoute, ...errorRoute, rankingRoute, uploadRoute];
 
 @NgModule({
   imports: [

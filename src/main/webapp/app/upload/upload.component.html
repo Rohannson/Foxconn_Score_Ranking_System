@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="display-8">Welcome to Foxras</h1>
+    <div *ngIf="isAuthenticated()">
+
+    </div>
+
+    <div *jhiHasAnyAuthority="'ROLE_ADMIN'">
+
+      <h5>Please upload the Ground Truth</h5>
+
+    </div>
+
+    <div *jhiHasAnyAuthority="'ROLE_USER'">
+
+      <h3>Please upload you Answer</h3>
+
+    </div>
+
+    <!--Testing Area No2-->
+
+    <!--<div *ngIf="isAuthenticated()">-->
+    <!--<hr>-->
+    <!--<span>注册功能</span>-->
+    <!--<hr>-->
+    <!--<div><input [ngModel]= "classeNameNeedToReg" ]></div>-->
+    <!--<div><span><button (click)="getAllCoursesWithTN()">注册课程</button> </span></div>-->
+    <!--</div>-->
+
+  </div>
+</div>
