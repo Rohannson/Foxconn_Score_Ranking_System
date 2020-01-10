@@ -1,18 +1,24 @@
 <div class="row">
   <div class="col-md-12">
     <h1 class="display-8">Welcome to Foxras</h1>
+
     <div *ngIf="isAuthenticated()">
 
     </div>
 
+    <p>This is the upload page</p>
+
     <div *jhiHasAnyAuthority="'ROLE_ADMIN'">
 
-      <h5>Please upload the Ground Truth</h5>
+      <HR align=center width=100% color=grey SIZE=1>
+      <h3>Please upload the Ground Truth</h3>
 
     </div>
 
+
     <div *jhiHasAnyAuthority="'ROLE_USER'">
 
+      <HR align=center width=100% color=grey SIZE=3>
       <h3>Please upload you Answer</h3>
 
     </div>
